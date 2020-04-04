@@ -1,0 +1,2750 @@
+Step	:	1
+Index0	:	0
+Tape0	:	a
+Head0	:	 
+State	:	q1
+Step	:	2
+Index0	:	0
+Tape0	:	a
+Head0	:	^
+State	:	accept
+Step	:	3
+Index0	:	0
+Tape0	:	_
+Head0	:	 
+State	:	accept
+Step	:	4
+Index0	:	1
+Tape0	:	T
+Head0	:	 
+State	:	accept2
+Step	:	5
+Index0	:	1
+Tape0	:	T
+Head0	:	 
+State	:	accept3
+Step	:	6
+Index0	:	1	0	1
+Tape0	:	T	r	u
+Head0	:	 	 	 
+State	:	accept4
+Step	:	7
+Index0	:	1	0	1	2
+Tape0	:	T	r	u	e
+Head0	:	 	 	 	^
+State	:	halt_accept
+Result:True
+==================== END ====================
+Step	:	1
+Index0	:	0	1
+Tape0	:	a	0
+Head0	:	 	^
+State	:	q1
+Step	:	2
+Index0	:	0	1
+Tape0	:	a	b
+Head0	:	 	 
+State	:	q_check
+Step	:	3
+Index0	:	0	1
+Tape0	:	a	b
+Head0	:	 	^
+State	:	accept
+Step	:	4
+Index0	:	0
+Tape0	:	a
+Head0	:	^
+State	:	accept
+Step	:	5
+Index0	:	0
+Tape0	:	_
+Head0	:	 
+State	:	accept
+Step	:	6
+Index0	:	1
+Tape0	:	T
+Head0	:	 
+State	:	accept2
+Step	:	7
+Index0	:	1
+Tape0	:	T
+Head0	:	 
+State	:	accept3
+Step	:	8
+Index0	:	1	0	1
+Tape0	:	T	r	u
+Head0	:	 	 	 
+State	:	accept4
+Step	:	9
+Index0	:	1	0	1	2
+Tape0	:	T	r	u	e
+Head0	:	 	 	 	^
+State	:	halt_accept
+Result:True
+==================== END ====================
+Step	:	1
+Index0	:	0	1	2	3
+Tape0	:	a	0	0	0
+Head0	:	 	^	 	 
+State	:	q1
+Step	:	2
+Index0	:	0	1	2	3
+Tape0	:	a	b	0	0
+Head0	:	 	 	^	 
+State	:	q_check
+Step	:	3
+Index0	:	0	1	2	3
+Tape0	:	a	b	0	0
+Head0	:	 	^	 	 
+State	:	q_lnew
+Step	:	4
+Index0	:	0	1	2	3
+Tape0	:	a	b	0	0
+Head0	:	^	 	 	 
+State	:	q_lnew
+Step	:	5
+Index0	:	0	1	2	3
+Tape0	:	b	b	0	0
+Head0	:	 	^	 	 
+State	:	q_add
+Step	:	6
+Index0	:	0	1	2	3
+Tape0	:	b	b	0	0
+Head0	:	 	 	^	 
+State	:	q_add
+Step	:	7
+Index0	:	0	1	2	3
+Tape0	:	b	b	n	0
+Head0	:	 	^	 	 
+State	:	q_lnew
+Step	:	8
+Index0	:	0	1	2	3
+Tape0	:	b	b	n	0
+Head0	:	^	 	 	 
+State	:	q_lnew
+Step	:	9
+Index0	:	0	1	2	3
+Tape0	:	b	b	n	0
+Head0	:	 	 	 	 
+State	:	q_lnew
+Step	:	10
+Index0	:	0	1	2	3
+Tape0	:	b	b	n	0
+Head0	:	^	 	 	 
+State	:	q_check
+Step	:	11
+Index0	:	0	1	2	3
+Tape0	:	a	b	n	0
+Head0	:	 	^	 	 
+State	:	q_check
+Step	:	12
+Index0	:	0	1	2	3
+Tape0	:	a	a	n	0
+Head0	:	 	 	^	 
+State	:	q_check
+Step	:	13
+Index0	:	0	1	2	3
+Tape0	:	a	a	b	0
+Head0	:	 	 	 	^
+State	:	q_check
+Step	:	14
+Index0	:	0	1	2	3
+Tape0	:	a	a	b	0
+Head0	:	 	 	^	 
+State	:	q_lnew
+Step	:	15
+Index0	:	0	1	2	3
+Tape0	:	a	a	b	0
+Head0	:	 	^	 	 
+State	:	q_lnew
+Step	:	16
+Index0	:	0	1	2	3
+Tape0	:	a	b	b	0
+Head0	:	 	 	^	 
+State	:	q_add
+Step	:	17
+Index0	:	0	1	2	3
+Tape0	:	a	b	b	0
+Head0	:	 	 	 	^
+State	:	q_add
+Step	:	18
+Index0	:	0	1	2	3
+Tape0	:	a	b	b	n
+Head0	:	 	 	^	 
+State	:	q_lnew
+Step	:	19
+Index0	:	0	1	2	3
+Tape0	:	a	b	b	n
+Head0	:	 	^	 	 
+State	:	q_lnew
+Step	:	20
+Index0	:	0	1	2	3
+Tape0	:	a	b	b	n
+Head0	:	^	 	 	 
+State	:	q_lnew
+Step	:	21
+Index0	:	0	1	2	3
+Tape0	:	b	b	b	n
+Head0	:	 	^	 	 
+State	:	q_add
+Step	:	22
+Index0	:	0	1	2	3
+Tape0	:	b	b	b	n
+Head0	:	 	 	^	 
+State	:	q_add
+Step	:	23
+Index0	:	0	1	2	3
+Tape0	:	b	b	b	n
+Head0	:	 	 	 	^
+State	:	q_add
+Step	:	24
+Index0	:	0	1	2	3
+Tape0	:	b	b	b	n
+Head0	:	 	 	 	 
+State	:	q_add
+Step	:	25
+Index0	:	0	1	2	3
+Tape0	:	b	b	b	n
+Head0	:	 	 	 	^
+State	:	reject
+Step	:	26
+Index0	:	0	1	2
+Tape0	:	b	b	b
+Head0	:	 	 	^
+State	:	reject
+Step	:	27
+Index0	:	0	1
+Tape0	:	b	b
+Head0	:	 	^
+State	:	reject
+Step	:	28
+Index0	:	0
+Tape0	:	b
+Head0	:	^
+State	:	reject
+Step	:	29
+Index0	:	0
+Tape0	:	_
+Head0	:	 
+State	:	reject
+Step	:	30
+Index0	:	1
+Tape0	:	F
+Head0	:	 
+State	:	reject2
+Step	:	31
+Index0	:	1
+Tape0	:	F
+Head0	:	 
+State	:	reject3
+Step	:	32
+Index0	:	1	0	1
+Tape0	:	F	a	l
+Head0	:	 	 	 
+State	:	reject4
+Step	:	33
+Index0	:	1	0	1	2
+Tape0	:	F	a	l	s
+Head0	:	 	 	 	 
+State	:	reject5
+Step	:	34
+Index0	:	1	0	1	2	3
+Tape0	:	F	a	l	s	e
+Head0	:	 	 	 	 	^
+State	:	halt_reject
+Result:False
+==================== END ====================
+Step	:	1
+Index0	:	0	1	2	3	4
+Tape0	:	a	0	0	0	0
+Head0	:	 	^	 	 	 
+State	:	q1
+Step	:	2
+Index0	:	0	1	2	3	4
+Tape0	:	a	b	0	0	0
+Head0	:	 	 	^	 	 
+State	:	q_check
+Step	:	3
+Index0	:	0	1	2	3	4
+Tape0	:	a	b	0	0	0
+Head0	:	 	^	 	 	 
+State	:	q_lnew
+Step	:	4
+Index0	:	0	1	2	3	4
+Tape0	:	a	b	0	0	0
+Head0	:	^	 	 	 	 
+State	:	q_lnew
+Step	:	5
+Index0	:	0	1	2	3	4
+Tape0	:	b	b	0	0	0
+Head0	:	 	^	 	 	 
+State	:	q_add
+Step	:	6
+Index0	:	0	1	2	3	4
+Tape0	:	b	b	0	0	0
+Head0	:	 	 	^	 	 
+State	:	q_add
+Step	:	7
+Index0	:	0	1	2	3	4
+Tape0	:	b	b	n	0	0
+Head0	:	 	^	 	 	 
+State	:	q_lnew
+Step	:	8
+Index0	:	0	1	2	3	4
+Tape0	:	b	b	n	0	0
+Head0	:	^	 	 	 	 
+State	:	q_lnew
+Step	:	9
+Index0	:	0	1	2	3	4
+Tape0	:	b	b	n	0	0
+Head0	:	 	 	 	 	 
+State	:	q_lnew
+Step	:	10
+Index0	:	0	1	2	3	4
+Tape0	:	b	b	n	0	0
+Head0	:	^	 	 	 	 
+State	:	q_check
+Step	:	11
+Index0	:	0	1	2	3	4
+Tape0	:	a	b	n	0	0
+Head0	:	 	^	 	 	 
+State	:	q_check
+Step	:	12
+Index0	:	0	1	2	3	4
+Tape0	:	a	a	n	0	0
+Head0	:	 	 	^	 	 
+State	:	q_check
+Step	:	13
+Index0	:	0	1	2	3	4
+Tape0	:	a	a	b	0	0
+Head0	:	 	 	 	^	 
+State	:	q_check
+Step	:	14
+Index0	:	0	1	2	3	4
+Tape0	:	a	a	b	0	0
+Head0	:	 	 	^	 	 
+State	:	q_lnew
+Step	:	15
+Index0	:	0	1	2	3	4
+Tape0	:	a	a	b	0	0
+Head0	:	 	^	 	 	 
+State	:	q_lnew
+Step	:	16
+Index0	:	0	1	2	3	4
+Tape0	:	a	b	b	0	0
+Head0	:	 	 	^	 	 
+State	:	q_add
+Step	:	17
+Index0	:	0	1	2	3	4
+Tape0	:	a	b	b	0	0
+Head0	:	 	 	 	^	 
+State	:	q_add
+Step	:	18
+Index0	:	0	1	2	3	4
+Tape0	:	a	b	b	n	0
+Head0	:	 	 	^	 	 
+State	:	q_lnew
+Step	:	19
+Index0	:	0	1	2	3	4
+Tape0	:	a	b	b	n	0
+Head0	:	 	^	 	 	 
+State	:	q_lnew
+Step	:	20
+Index0	:	0	1	2	3	4
+Tape0	:	a	b	b	n	0
+Head0	:	^	 	 	 	 
+State	:	q_lnew
+Step	:	21
+Index0	:	0	1	2	3	4
+Tape0	:	b	b	b	n	0
+Head0	:	 	^	 	 	 
+State	:	q_add
+Step	:	22
+Index0	:	0	1	2	3	4
+Tape0	:	b	b	b	n	0
+Head0	:	 	 	^	 	 
+State	:	q_add
+Step	:	23
+Index0	:	0	1	2	3	4
+Tape0	:	b	b	b	n	0
+Head0	:	 	 	 	^	 
+State	:	q_add
+Step	:	24
+Index0	:	0	1	2	3	4
+Tape0	:	b	b	b	n	0
+Head0	:	 	 	 	 	^
+State	:	q_add
+Step	:	25
+Index0	:	0	1	2	3	4
+Tape0	:	b	b	b	n	n
+Head0	:	 	 	 	^	 
+State	:	q_lnew
+Step	:	26
+Index0	:	0	1	2	3	4
+Tape0	:	b	b	b	n	n
+Head0	:	 	 	^	 	 
+State	:	q_lnew
+Step	:	27
+Index0	:	0	1	2	3	4
+Tape0	:	b	b	b	n	n
+Head0	:	 	^	 	 	 
+State	:	q_lnew
+Step	:	28
+Index0	:	0	1	2	3	4
+Tape0	:	b	b	b	n	n
+Head0	:	^	 	 	 	 
+State	:	q_lnew
+Step	:	29
+Index0	:	0	1	2	3	4
+Tape0	:	b	b	b	n	n
+Head0	:	 	 	 	 	 
+State	:	q_lnew
+Step	:	30
+Index0	:	0	1	2	3	4
+Tape0	:	b	b	b	n	n
+Head0	:	^	 	 	 	 
+State	:	q_check
+Step	:	31
+Index0	:	0	1	2	3	4
+Tape0	:	a	b	b	n	n
+Head0	:	 	^	 	 	 
+State	:	q_check
+Step	:	32
+Index0	:	0	1	2	3	4
+Tape0	:	a	a	b	n	n
+Head0	:	 	 	^	 	 
+State	:	q_check
+Step	:	33
+Index0	:	0	1	2	3	4
+Tape0	:	a	a	a	n	n
+Head0	:	 	 	 	^	 
+State	:	q_check
+Step	:	34
+Index0	:	0	1	2	3	4
+Tape0	:	a	a	a	b	n
+Head0	:	 	 	 	 	^
+State	:	q_check
+Step	:	35
+Index0	:	0	1	2	3	4
+Tape0	:	a	a	a	b	b
+Head0	:	 	 	 	 	 
+State	:	q_check
+Step	:	36
+Index0	:	0	1	2	3	4
+Tape0	:	a	a	a	b	b
+Head0	:	 	 	 	 	^
+State	:	accept
+Step	:	37
+Index0	:	0	1	2	3
+Tape0	:	a	a	a	b
+Head0	:	 	 	 	^
+State	:	accept
+Step	:	38
+Index0	:	0	1	2
+Tape0	:	a	a	a
+Head0	:	 	 	^
+State	:	accept
+Step	:	39
+Index0	:	0	1
+Tape0	:	a	a
+Head0	:	 	^
+State	:	accept
+Step	:	40
+Index0	:	0
+Tape0	:	a
+Head0	:	^
+State	:	accept
+Step	:	41
+Index0	:	0
+Tape0	:	_
+Head0	:	 
+State	:	accept
+Step	:	42
+Index0	:	1
+Tape0	:	T
+Head0	:	 
+State	:	accept2
+Step	:	43
+Index0	:	1
+Tape0	:	T
+Head0	:	 
+State	:	accept3
+Step	:	44
+Index0	:	1	0	1
+Tape0	:	T	r	u
+Head0	:	 	 	 
+State	:	accept4
+Step	:	45
+Index0	:	1	0	1	2
+Tape0	:	T	r	u	e
+Head0	:	 	 	 	^
+State	:	halt_accept
+Result:True
+==================== END ====================
+Step	:	1
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q1
+Step	:	2
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	3
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	4
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	5
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	6
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	7
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	8
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	9
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	10
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	11
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	12
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	13
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	14
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	15
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	16
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	17
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	18
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	19
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	20
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	21
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	22
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	23
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	24
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	25
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	n	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	26
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	n	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	27
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	n	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	28
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	n	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	29
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	n	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	30
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	n	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	31
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	n	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	32
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	n	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	33
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	n	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	34
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	35
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	36
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	37
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	38
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	39
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	40
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	41
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	42
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	43
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	44
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	45
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	46
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	47
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	48
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	49
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	50
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	51
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	n	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	52
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	n	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	53
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	n	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	54
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	n	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	55
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	n	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	56
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	n	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	57
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	n	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	58
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	n	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	59
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	n	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	60
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	n	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	61
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	n	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	62
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	n	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	63
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	n	n	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	64
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	n	n	n	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	65
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	n	n	n	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	66
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	n	n	n	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	67
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	n	n	n	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	68
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	n	n	n	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	69
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	n	n	n	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	70
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	n	n	n	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	71
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	n	n	n	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	72
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	n	n	n	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	73
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	n	n	n	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	74
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	n	n	n	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	75
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	n	n	n	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	76
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	b	n	n	n	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	77
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	n	n	n	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	78
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	b	n	n	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	79
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	b	b	n	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	80
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	b	b	b	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	81
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	b	b	b	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	82
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	b	b	b	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	83
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	b	b	b	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	84
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	b	b	b	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	85
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	b	b	b	b	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	86
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	b	b	b	b	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	87
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	b	b	b	b	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	88
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	b	b	b	b	0	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	89
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	b	b	b	b	n	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	90
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	b	b	b	b	n	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	91
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	b	b	b	b	n	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	92
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	b	b	b	b	n	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	93
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	b	b	b	b	n	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	94
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	n	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	95
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	n	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	96
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	n	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	97
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	n	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	98
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	n	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	99
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	n	0	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	100
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	n	n	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	101
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	n	n	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	102
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	n	n	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	103
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	n	n	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	104
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	n	n	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	105
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	n	n	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	106
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	n	n	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	107
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	n	n	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	108
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	n	n	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	109
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	n	n	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	110
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	n	n	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	111
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	n	n	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	112
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	n	n	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	113
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	n	n	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	114
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	n	n	0	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	115
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	n	n	n	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	116
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	n	n	n	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	117
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	n	n	n	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	118
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	n	n	n	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	119
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	n	n	n	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	120
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	n	n	n	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	121
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	n	n	n	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	122
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	n	n	n	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	123
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	n	n	n	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	124
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	n	n	n	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	125
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	n	n	n	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	126
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	n	n	n	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	127
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	n	n	n	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	128
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	n	n	n	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	129
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	n	n	n	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	130
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	n	n	n	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	131
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	n	n	n	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	132
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	n	n	n	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	133
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	n	n	n	0	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	134
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	135
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	136
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	137
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	138
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	139
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	140
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	141
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	142
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	143
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0	0	0	0	0	0
+Head0	:	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	144
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0	0	0	0	0	0
+Head0	:	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	145
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0	0	0	0	0	0
+Head0	:	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	146
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	147
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	148
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	149
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	150
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	151
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	152
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	153
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	154
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	155
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	156
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	157
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	158
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	159
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	160
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	161
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	162
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	163
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	164
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	165
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	166
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0	0	0	0	0	0
+Head0	:	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	167
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0	0	0	0	0	0
+Head0	:	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	168
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0	0	0	0	0	0
+Head0	:	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	169
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	170
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0	0	0	0	0	0
+Head0	:	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	171
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0	0	0	0	0	0
+Head0	:	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	172
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	n	n	n	n	n	0	0	0	0	0	0	0	0
+Head0	:	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	173
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	n	n	n	n	n	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	174
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	b	b	b	b	n	n	n	n	n	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	175
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	b	b	b	n	n	n	n	n	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	176
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	b	b	n	n	n	n	n	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	177
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	b	n	n	n	n	n	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	178
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	a	n	n	n	n	n	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	179
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	a	b	n	n	n	n	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	180
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	a	b	b	n	n	n	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	181
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	a	b	b	b	n	n	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	182
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	a	b	b	b	b	n	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	183
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	a	b	b	b	b	b	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	184
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	a	b	b	b	b	b	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	185
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	a	b	b	b	b	b	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	186
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	a	b	b	b	b	b	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	187
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	a	b	b	b	b	b	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	188
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	a	b	b	b	b	b	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	189
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	a	b	b	b	b	b	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	190
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	b	b	b	b	b	b	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	191
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	b	b	b	b	b	b	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	192
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	b	b	b	b	b	b	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	193
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	b	b	b	b	b	b	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	194
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	b	b	b	b	b	b	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	195
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	b	b	b	b	b	b	0	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	196
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	b	b	b	b	b	b	n	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	197
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	b	b	b	b	b	b	n	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	198
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	b	b	b	b	b	b	n	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	199
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	b	b	b	b	b	b	n	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	200
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	b	b	b	b	b	b	n	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	201
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	b	b	b	b	b	b	n	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	202
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	b	b	b	b	b	b	n	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	203
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	b	b	b	b	b	b	b	n	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	204
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	b	b	b	b	b	b	b	n	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	205
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	b	b	b	b	b	b	b	n	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	206
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	b	b	b	b	b	b	b	n	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	207
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	b	b	b	b	b	b	b	n	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	208
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	b	b	b	b	b	b	b	n	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	209
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	b	b	b	b	b	b	b	n	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	210
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	b	b	b	b	b	b	b	n	0	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 
+State	:	q_add
+Step	:	211
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	b	b	b	b	b	b	b	n	n	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	212
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	b	b	b	b	b	b	b	n	n	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	213
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	b	b	b	b	b	b	b	n	n	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	214
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	b	b	b	b	b	b	b	n	n	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	215
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	b	b	b	b	b	b	b	n	n	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	216
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	b	b	b	b	b	b	b	n	n	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	217
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	b	b	b	b	b	b	b	n	n	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	218
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	b	b	b	b	b	b	b	n	n	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	219
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	b	b	b	b	b	b	b	n	n	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	220
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	b	b	b	b	b	b	b	b	n	n	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	221
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	b	b	b	b	b	b	b	b	n	n	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	222
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	b	b	b	b	b	b	b	b	n	n	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	223
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	b	b	b	b	b	b	b	b	n	n	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	224
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	b	b	b	b	b	b	b	b	n	n	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	225
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	b	b	b	b	b	b	b	b	n	n	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	226
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	b	b	b	b	b	b	b	b	n	n	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	227
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	b	b	b	b	b	b	b	b	n	n	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	228
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	b	b	b	b	b	b	b	b	n	n	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 
+State	:	q_add
+Step	:	229
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	b	b	b	b	b	b	b	b	n	n	0	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 
+State	:	q_add
+Step	:	230
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	b	b	b	b	b	b	b	b	n	n	n	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	231
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	b	b	b	b	b	b	b	b	n	n	n	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	232
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	b	b	b	b	b	b	b	b	n	n	n	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	233
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	b	b	b	b	b	b	b	b	n	n	n	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	234
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	b	b	b	b	b	b	b	b	n	n	n	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	235
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	b	b	b	b	b	b	b	b	n	n	n	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	236
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	b	b	b	b	b	b	b	b	n	n	n	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	237
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	b	b	b	b	b	b	b	b	n	n	n	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	238
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	b	b	b	b	b	b	b	b	n	n	n	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	239
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	b	b	b	b	b	b	b	b	n	n	n	0	0	0	0	0
+Head0	:	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	240
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	b	b	b	b	b	b	b	b	n	n	n	0	0	0	0	0
+Head0	:	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	241
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	b	b	b	b	b	b	b	b	b	n	n	n	0	0	0	0	0
+Head0	:	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	242
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	b	b	b	b	b	b	b	b	b	n	n	n	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	243
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	b	b	b	b	b	b	b	b	b	n	n	n	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	244
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	b	b	b	b	b	b	b	b	b	n	n	n	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	245
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	b	b	b	b	b	b	b	b	b	n	n	n	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	246
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	b	b	b	b	b	b	b	b	b	n	n	n	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	247
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	b	b	b	b	b	b	b	b	b	n	n	n	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	248
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	b	b	b	b	b	b	b	b	b	n	n	n	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	249
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	b	b	b	b	b	b	b	b	b	n	n	n	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	250
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	b	b	b	b	b	b	b	b	b	n	n	n	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 
+State	:	q_add
+Step	:	251
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	b	b	b	b	b	b	b	b	b	n	n	n	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 
+State	:	q_add
+Step	:	252
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	b	b	b	b	b	b	b	b	b	n	n	n	0	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 
+State	:	q_add
+Step	:	253
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	b	b	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 
+State	:	q_lnew
+Step	:	254
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	b	b	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	255
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	b	b	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	256
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	b	b	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	257
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	b	b	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	258
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	b	b	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	259
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	b	b	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	260
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	b	b	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	261
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	b	b	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	262
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	b	b	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0
+Head0	:	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	263
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	b	b	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0
+Head0	:	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	264
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	b	b	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0
+Head0	:	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	265
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	b	b	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0
+Head0	:	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	266
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0
+Head0	:	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	267
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0
+Head0	:	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	268
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0
+Head0	:	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	269
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	270
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	271
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	272
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	273
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	274
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	275
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	276
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 
+State	:	q_add
+Step	:	277
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 
+State	:	q_add
+Step	:	278
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 
+State	:	q_add
+Step	:	279
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	b	b	b	b	b	n	n	n	n	0	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 
+State	:	q_add
+Step	:	280
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 
+State	:	q_lnew
+Step	:	281
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 
+State	:	q_lnew
+Step	:	282
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	283
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	284
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	285
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	286
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	287
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	288
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	289
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0
+Head0	:	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	290
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0
+Head0	:	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	291
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0
+Head0	:	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	292
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0
+Head0	:	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	293
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0
+Head0	:	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	294
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0
+Head0	:	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	295
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0
+Head0	:	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	296
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0
+Head0	:	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	297
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0
+Head0	:	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	298
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0
+Head0	:	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	299
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0
+Head0	:	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	300
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	301
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	302
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	303
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	304
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	305
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	306
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 
+State	:	q_add
+Step	:	307
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 
+State	:	q_add
+Step	:	308
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 
+State	:	q_add
+Step	:	309
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 
+State	:	q_add
+Step	:	310
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 
+State	:	q_add
+Step	:	311
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 
+State	:	q_lnew
+Step	:	312
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 
+State	:	q_lnew
+Step	:	313
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 
+State	:	q_lnew
+Step	:	314
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	315
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	316
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	317
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	318
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	319
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	320
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	0	0
+Head0	:	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	321
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	0	0
+Head0	:	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	322
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	0	0
+Head0	:	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	323
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	0	0
+Head0	:	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	324
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	0	0
+Head0	:	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	325
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	0	0
+Head0	:	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	326
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	0	0
+Head0	:	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	327
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	0	0
+Head0	:	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	328
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	0	0
+Head0	:	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	329
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	0	0
+Head0	:	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	330
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	0	0
+Head0	:	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	331
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	0	0
+Head0	:	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	332
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	0	0
+Head0	:	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	333
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	0	0
+Head0	:	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	334
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	0	0
+Head0	:	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	335
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	336
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	337
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	338
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	339
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	340
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 
+State	:	q_add
+Step	:	341
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 
+State	:	q_add
+Step	:	342
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 
+State	:	q_add
+Step	:	343
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 
+State	:	q_add
+Step	:	344
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 
+State	:	q_add
+Step	:	345
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 
+State	:	q_add
+Step	:	346
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 
+State	:	q_lnew
+Step	:	347
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 
+State	:	q_lnew
+Step	:	348
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 
+State	:	q_lnew
+Step	:	349
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 
+State	:	q_lnew
+Step	:	350
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	351
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	352
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	353
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	354
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	355
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	0
+Head0	:	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	356
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	0
+Head0	:	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	357
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	0
+Head0	:	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	358
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	0
+Head0	:	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	359
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	0
+Head0	:	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	360
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	0
+Head0	:	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	361
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	0
+Head0	:	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	362
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	0
+Head0	:	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	363
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	0
+Head0	:	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	364
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	0
+Head0	:	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	365
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	0
+Head0	:	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	366
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	0
+Head0	:	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	367
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	0
+Head0	:	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	368
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	0
+Head0	:	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	369
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	0
+Head0	:	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	370
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	0
+Head0	:	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	371
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	0
+Head0	:	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	372
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	0
+Head0	:	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	373
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	0
+Head0	:	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	374
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	375
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	376
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	377
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 
+State	:	q_add
+Step	:	378
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 
+State	:	q_add
+Step	:	379
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 
+State	:	q_add
+Step	:	380
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 
+State	:	q_add
+Step	:	381
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 
+State	:	q_add
+Step	:	382
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 
+State	:	q_add
+Step	:	383
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 
+State	:	q_add
+Step	:	384
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	q_add
+Step	:	385
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	n
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 
+State	:	q_lnew
+Step	:	386
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	n
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 
+State	:	q_lnew
+Step	:	387
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	n
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 
+State	:	q_lnew
+Step	:	388
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	n
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 
+State	:	q_lnew
+Step	:	389
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	n
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 
+State	:	q_lnew
+Step	:	390
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	n
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	391
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	n
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	392
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	n
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	393
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	n
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	394
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	n
+Head0	:	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	395
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	n
+Head0	:	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	396
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	n
+Head0	:	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	397
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	n
+Head0	:	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	398
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	n
+Head0	:	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	399
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	n
+Head0	:	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	400
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	n
+Head0	:	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	401
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	n
+Head0	:	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	402
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	n
+Head0	:	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	403
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	n
+Head0	:	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	404
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	n
+Head0	:	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	405
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	n
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_lnew
+Step	:	406
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	b	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	n
+Head0	:	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	407
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	b	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	n
+Head0	:	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	408
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	b	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	n
+Head0	:	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	409
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	b	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	n
+Head0	:	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	410
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	b	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	n
+Head0	:	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	411
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	b	b	b	b	b	b	b	b	n	n	n	n	n	n	n	n
+Head0	:	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	412
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	b	b	b	b	b	b	b	n	n	n	n	n	n	n	n
+Head0	:	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	413
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	b	b	b	b	b	b	n	n	n	n	n	n	n	n
+Head0	:	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	414
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	a	b	b	b	b	b	n	n	n	n	n	n	n	n
+Head0	:	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	415
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	a	a	b	b	b	b	n	n	n	n	n	n	n	n
+Head0	:	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	416
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	a	a	a	b	b	b	n	n	n	n	n	n	n	n
+Head0	:	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	417
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	a	a	a	a	b	b	n	n	n	n	n	n	n	n
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	418
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	a	a	a	a	a	b	n	n	n	n	n	n	n	n
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	419
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	a	a	a	a	a	a	n	n	n	n	n	n	n	n
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	420
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	a	a	a	a	a	a	b	n	n	n	n	n	n	n
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 
+State	:	q_check
+Step	:	421
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	a	a	a	a	a	a	b	b	n	n	n	n	n	n
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 
+State	:	q_check
+Step	:	422
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	a	a	a	a	a	a	b	b	b	n	n	n	n	n
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 
+State	:	q_check
+Step	:	423
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	a	a	a	a	a	a	b	b	b	b	n	n	n	n
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 
+State	:	q_check
+Step	:	424
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	a	a	a	a	a	a	b	b	b	b	b	n	n	n
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 
+State	:	q_check
+Step	:	425
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	a	a	a	a	a	a	b	b	b	b	b	b	n	n
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 
+State	:	q_check
+Step	:	426
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	a	a	a	a	a	a	b	b	b	b	b	b	b	n
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	q_check
+Step	:	427
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	a	a	a	a	a	a	b	b	b	b	b	b	b	b
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	q_check
+Step	:	428
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Tape0	:	a	a	a	a	a	a	a	a	a	a	a	a	a	b	b	b	b	b	b	b	b
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	accept
+Step	:	429
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19
+Tape0	:	a	a	a	a	a	a	a	a	a	a	a	a	a	b	b	b	b	b	b	b
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	accept
+Step	:	430
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18
+Tape0	:	a	a	a	a	a	a	a	a	a	a	a	a	a	b	b	b	b	b	b
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	accept
+Step	:	431
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17
+Tape0	:	a	a	a	a	a	a	a	a	a	a	a	a	a	b	b	b	b	b
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	accept
+Step	:	432
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16
+Tape0	:	a	a	a	a	a	a	a	a	a	a	a	a	a	b	b	b	b
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	accept
+Step	:	433
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15
+Tape0	:	a	a	a	a	a	a	a	a	a	a	a	a	a	b	b	b
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	accept
+Step	:	434
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape0	:	a	a	a	a	a	a	a	a	a	a	a	a	a	b	b
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	accept
+Step	:	435
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13
+Tape0	:	a	a	a	a	a	a	a	a	a	a	a	a	a	b
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	accept
+Step	:	436
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12
+Tape0	:	a	a	a	a	a	a	a	a	a	a	a	a	a
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	accept
+Step	:	437
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape0	:	a	a	a	a	a	a	a	a	a	a	a	a
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	accept
+Step	:	438
+Index0	:	0	1	2	3	4	5	6	7	8	9	10
+Tape0	:	a	a	a	a	a	a	a	a	a	a	a
+Head0	:	 	 	 	 	 	 	 	 	 	 	^
+State	:	accept
+Step	:	439
+Index0	:	0	1	2	3	4	5	6	7	8	9
+Tape0	:	a	a	a	a	a	a	a	a	a	a
+Head0	:	 	 	 	 	 	 	 	 	 	^
+State	:	accept
+Step	:	440
+Index0	:	0	1	2	3	4	5	6	7	8
+Tape0	:	a	a	a	a	a	a	a	a	a
+Head0	:	 	 	 	 	 	 	 	 	^
+State	:	accept
+Step	:	441
+Index0	:	0	1	2	3	4	5	6	7
+Tape0	:	a	a	a	a	a	a	a	a
+Head0	:	 	 	 	 	 	 	 	^
+State	:	accept
+Step	:	442
+Index0	:	0	1	2	3	4	5	6
+Tape0	:	a	a	a	a	a	a	a
+Head0	:	 	 	 	 	 	 	^
+State	:	accept
+Step	:	443
+Index0	:	0	1	2	3	4	5
+Tape0	:	a	a	a	a	a	a
+Head0	:	 	 	 	 	 	^
+State	:	accept
+Step	:	444
+Index0	:	0	1	2	3	4
+Tape0	:	a	a	a	a	a
+Head0	:	 	 	 	 	^
+State	:	accept
+Step	:	445
+Index0	:	0	1	2	3
+Tape0	:	a	a	a	a
+Head0	:	 	 	 	^
+State	:	accept
+Step	:	446
+Index0	:	0	1	2
+Tape0	:	a	a	a
+Head0	:	 	 	^
+State	:	accept
+Step	:	447
+Index0	:	0	1
+Tape0	:	a	a
+Head0	:	 	^
+State	:	accept
+Step	:	448
+Index0	:	0
+Tape0	:	a
+Head0	:	^
+State	:	accept
+Step	:	449
+Index0	:	0
+Tape0	:	_
+Head0	:	 
+State	:	accept
+Step	:	450
+Index0	:	1
+Tape0	:	T
+Head0	:	 
+State	:	accept2
+Step	:	451
+Index0	:	1
+Tape0	:	T
+Head0	:	 
+State	:	accept3
+Step	:	452
+Index0	:	1	0	1
+Tape0	:	T	r	u
+Head0	:	 	 	 
+State	:	accept4
+Step	:	453
+Index0	:	1	0	1	2
+Tape0	:	T	r	u	e
+Head0	:	 	 	 	^
+State	:	halt_accept
+Result:True
+==================== END ====================

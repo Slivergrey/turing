@@ -1,0 +1,1323 @@
+Step	:	1
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape0	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head0	:	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+Index1	:	0
+Tape1	:	_
+Head1	:	^
+State	:	cp
+Step	:	2
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape0	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head0	:	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 
+Index1	:	0
+Tape1	:	0
+Head1	:	 
+State	:	cp
+Step	:	3
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape0	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head0	:	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 
+Index1	:	0	1
+Tape1	:	0	0
+Head1	:	 	 
+State	:	cp
+Step	:	4
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape0	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head0	:	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 
+Index1	:	0	1	2
+Tape1	:	0	0	0
+Head1	:	 	 	 
+State	:	cp
+Step	:	5
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape0	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head0	:	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 
+Index1	:	0	1	2	3
+Tape1	:	0	0	0	1
+Head1	:	 	 	 	 
+State	:	cp
+Step	:	6
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape0	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head0	:	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4
+Tape1	:	0	0	0	1	1
+Head1	:	 	 	 	 	 
+State	:	cp
+Step	:	7
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape0	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head0	:	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5
+Tape1	:	0	0	0	1	1	1
+Head1	:	 	 	 	 	 	 
+State	:	cp
+Step	:	8
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape0	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head0	:	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6
+Tape1	:	0	0	0	1	1	1	0
+Head1	:	 	 	 	 	 	 	 
+State	:	cp
+Step	:	9
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape0	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7
+Tape1	:	0	0	0	1	1	1	0	0
+Head1	:	 	 	 	 	 	 	 	 
+State	:	cp
+Step	:	10
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape0	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8
+Tape1	:	0	0	0	1	1	1	0	0	0
+Head1	:	 	 	 	 	 	 	 	 	 
+State	:	cp
+Step	:	11
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape0	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9
+Tape1	:	0	0	0	1	1	1	0	0	0	1
+Head1	:	 	 	 	 	 	 	 	 	 	 
+State	:	cp
+Step	:	12
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape0	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9	10
+Tape1	:	0	0	0	1	1	1	0	0	0	1	1
+Head1	:	 	 	 	 	 	 	 	 	 	 	 
+State	:	cp
+Step	:	13
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape0	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape1	:	0	0	0	1	1	1	0	0	0	1	1	1
+Head1	:	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	cp
+Step	:	14
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape0	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 
+Index1	:	0	1	2	3	4	5	6	7	8	9	10	11	12
+Tape1	:	0	0	0	1	1	1	0	0	0	1	1	1	0
+Head1	:	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	cp
+Step	:	15
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape0	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^
+Index1	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13
+Tape1	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0
+Head1	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	cp
+Step	:	16
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape0	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape1	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head1	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	cp
+Step	:	17
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape0	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^
+Index1	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape1	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head1	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	mh
+Step	:	18
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape0	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	^	 
+Index1	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape1	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head1	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	mh
+Step	:	19
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape0	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	^	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape1	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head1	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	mh
+Step	:	20
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape0	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	^	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape1	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head1	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	mh
+Step	:	21
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape0	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	^	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape1	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head1	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	mh
+Step	:	22
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape0	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	^	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape1	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head1	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	mh
+Step	:	23
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape0	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	^	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape1	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head1	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	mh
+Step	:	24
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape0	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head0	:	 	 	 	 	 	 	 	^	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape1	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head1	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	mh
+Step	:	25
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape0	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head0	:	 	 	 	 	 	 	^	 	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape1	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head1	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	mh
+Step	:	26
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape0	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head0	:	 	 	 	 	 	^	 	 	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape1	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head1	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	mh
+Step	:	27
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape0	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head0	:	 	 	 	 	^	 	 	 	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape1	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head1	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	mh
+Step	:	28
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape0	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head0	:	 	 	 	^	 	 	 	 	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape1	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head1	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	mh
+Step	:	29
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape0	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head0	:	 	 	^	 	 	 	 	 	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape1	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head1	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	mh
+Step	:	30
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape0	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head0	:	 	^	 	 	 	 	 	 	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape1	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head1	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	mh
+Step	:	31
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape0	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head0	:	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape1	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head1	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	mh
+Step	:	32
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape0	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape1	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head1	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	mh
+Step	:	33
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape0	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head0	:	^	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape1	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head1	:	 	 	 	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	cmp
+Step	:	34
+Index0	:	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape0	:	0	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head0	:	^	 	 	 	 	 	 	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9	10	11	12	13
+Tape1	:	0	0	0	1	1	1	0	0	0	1	1	1	0	0
+Head1	:	 	 	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	cmp
+Step	:	35
+Index0	:	2	3	4	5	6	7	8	9	10	11	12	13	14
+Tape0	:	0	1	1	1	0	0	0	1	1	1	0	0	0
+Head0	:	^	 	 	 	 	 	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9	10	11	12
+Tape1	:	0	0	0	1	1	1	0	0	0	1	1	1	0
+Head1	:	 	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	cmp
+Step	:	36
+Index0	:	3	4	5	6	7	8	9	10	11	12	13	14
+Tape0	:	1	1	1	0	0	0	1	1	1	0	0	0
+Head0	:	^	 	 	 	 	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape1	:	0	0	0	1	1	1	0	0	0	1	1	1
+Head1	:	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	cmp
+Step	:	37
+Index0	:	4	5	6	7	8	9	10	11	12	13	14
+Tape0	:	1	1	0	0	0	1	1	1	0	0	0
+Head0	:	^	 	 	 	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9	10
+Tape1	:	0	0	0	1	1	1	0	0	0	1	1
+Head1	:	 	 	 	 	 	 	 	 	 	 	^
+State	:	cmp
+Step	:	38
+Index0	:	5	6	7	8	9	10	11	12	13	14
+Tape0	:	1	0	0	0	1	1	1	0	0	0
+Head0	:	^	 	 	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9
+Tape1	:	0	0	0	1	1	1	0	0	0	1
+Head1	:	 	 	 	 	 	 	 	 	 	^
+State	:	cmp
+Step	:	39
+Index0	:	6	7	8	9	10	11	12	13	14
+Tape0	:	0	0	0	1	1	1	0	0	0
+Head0	:	^	 	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8
+Tape1	:	0	0	0	1	1	1	0	0	0
+Head1	:	 	 	 	 	 	 	 	 	^
+State	:	cmp
+Step	:	40
+Index0	:	7	8	9	10	11	12	13	14
+Tape0	:	0	0	1	1	1	0	0	0
+Head0	:	^	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7
+Tape1	:	0	0	0	1	1	1	0	0
+Head1	:	 	 	 	 	 	 	 	^
+State	:	cmp
+Step	:	41
+Index0	:	8	9	10	11	12	13	14
+Tape0	:	0	1	1	1	0	0	0
+Head0	:	^	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6
+Tape1	:	0	0	0	1	1	1	0
+Head1	:	 	 	 	 	 	 	^
+State	:	cmp
+Step	:	42
+Index0	:	9	10	11	12	13	14
+Tape0	:	1	1	1	0	0	0
+Head0	:	^	 	 	 	 	 
+Index1	:	0	1	2	3	4	5
+Tape1	:	0	0	0	1	1	1
+Head1	:	 	 	 	 	 	^
+State	:	cmp
+Step	:	43
+Index0	:	10	11	12	13	14
+Tape0	:	1	1	0	0	0
+Head0	:	^	 	 	 	 
+Index1	:	0	1	2	3	4
+Tape1	:	0	0	0	1	1
+Head1	:	 	 	 	 	^
+State	:	cmp
+Step	:	44
+Index0	:	11	12	13	14
+Tape0	:	1	0	0	0
+Head0	:	^	 	 	 
+Index1	:	0	1	2	3
+Tape1	:	0	0	0	1
+Head1	:	 	 	 	^
+State	:	cmp
+Step	:	45
+Index0	:	12	13	14
+Tape0	:	0	0	0
+Head0	:	^	 	 
+Index1	:	0	1	2
+Tape1	:	0	0	0
+Head1	:	 	 	^
+State	:	cmp
+Step	:	46
+Index0	:	13	14
+Tape0	:	0	0
+Head0	:	^	 
+Index1	:	0	1
+Tape1	:	0	0
+Head1	:	 	^
+State	:	cmp
+Step	:	47
+Index0	:	14
+Tape0	:	0
+Head0	:	^
+Index1	:	0
+Tape1	:	0
+Head1	:	^
+State	:	cmp
+Step	:	48
+Index0	:	0
+Tape0	:	_
+Head0	:	 
+Index1	:	0
+Tape1	:	_
+Head1	:	 
+State	:	cmp
+Step	:	49
+Index0	:	0
+Tape0	:	_
+Head0	:	 
+Index1	:	0
+Tape1	:	_
+Head1	:	 
+State	:	accept
+Step	:	50
+Index0	:	15
+Tape0	:	T
+Head0	:	 
+Index1	:	0
+Tape1	:	_
+Head1	:	 
+State	:	accept2
+Step	:	51
+Index0	:	15	16
+Tape0	:	T	r
+Head0	:	 	 
+Index1	:	0
+Tape1	:	_
+Head1	:	 
+State	:	accept3
+Step	:	52
+Index0	:	15	16	17
+Tape0	:	T	r	u
+Head0	:	 	 	 
+Index1	:	0
+Tape1	:	_
+Head1	:	 
+State	:	accept4
+Step	:	53
+Index0	:	15	16	17	18
+Tape0	:	T	r	u	e
+Head0	:	 	 	 	^
+Index1	:	0
+Tape1	:	_
+Head1	:	 
+State	:	halt_accept
+Result:True
+==================== END ====================
+==================== ERR ====================
+The input 01102200 is illegal
+==================== END ====================
+Step	:	1
+Index0	:	0	1	2	3	4	5	6
+Tape0	:	0	1	0	1	0	1	0
+Head0	:	^	 	 	 	 	 	 
+Index1	:	0
+Tape1	:	_
+Head1	:	^
+State	:	cp
+Step	:	2
+Index0	:	0	1	2	3	4	5	6
+Tape0	:	0	1	0	1	0	1	0
+Head0	:	 	^	 	 	 	 	 
+Index1	:	0
+Tape1	:	0
+Head1	:	 
+State	:	cp
+Step	:	3
+Index0	:	0	1	2	3	4	5	6
+Tape0	:	0	1	0	1	0	1	0
+Head0	:	 	 	^	 	 	 	 
+Index1	:	0	1
+Tape1	:	0	1
+Head1	:	 	 
+State	:	cp
+Step	:	4
+Index0	:	0	1	2	3	4	5	6
+Tape0	:	0	1	0	1	0	1	0
+Head0	:	 	 	 	^	 	 	 
+Index1	:	0	1	2
+Tape1	:	0	1	0
+Head1	:	 	 	 
+State	:	cp
+Step	:	5
+Index0	:	0	1	2	3	4	5	6
+Tape0	:	0	1	0	1	0	1	0
+Head0	:	 	 	 	 	^	 	 
+Index1	:	0	1	2	3
+Tape1	:	0	1	0	1
+Head1	:	 	 	 	 
+State	:	cp
+Step	:	6
+Index0	:	0	1	2	3	4	5	6
+Tape0	:	0	1	0	1	0	1	0
+Head0	:	 	 	 	 	 	^	 
+Index1	:	0	1	2	3	4
+Tape1	:	0	1	0	1	0
+Head1	:	 	 	 	 	 
+State	:	cp
+Step	:	7
+Index0	:	0	1	2	3	4	5	6
+Tape0	:	0	1	0	1	0	1	0
+Head0	:	 	 	 	 	 	 	^
+Index1	:	0	1	2	3	4	5
+Tape1	:	0	1	0	1	0	1
+Head1	:	 	 	 	 	 	 
+State	:	cp
+Step	:	8
+Index0	:	0	1	2	3	4	5	6
+Tape0	:	0	1	0	1	0	1	0
+Head0	:	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6
+Tape1	:	0	1	0	1	0	1	0
+Head1	:	 	 	 	 	 	 	 
+State	:	cp
+Step	:	9
+Index0	:	0	1	2	3	4	5	6
+Tape0	:	0	1	0	1	0	1	0
+Head0	:	 	 	 	 	 	 	^
+Index1	:	0	1	2	3	4	5	6
+Tape1	:	0	1	0	1	0	1	0
+Head1	:	 	 	 	 	 	 	^
+State	:	mh
+Step	:	10
+Index0	:	0	1	2	3	4	5	6
+Tape0	:	0	1	0	1	0	1	0
+Head0	:	 	 	 	 	 	^	 
+Index1	:	0	1	2	3	4	5	6
+Tape1	:	0	1	0	1	0	1	0
+Head1	:	 	 	 	 	 	 	^
+State	:	mh
+Step	:	11
+Index0	:	0	1	2	3	4	5	6
+Tape0	:	0	1	0	1	0	1	0
+Head0	:	 	 	 	 	^	 	 
+Index1	:	0	1	2	3	4	5	6
+Tape1	:	0	1	0	1	0	1	0
+Head1	:	 	 	 	 	 	 	^
+State	:	mh
+Step	:	12
+Index0	:	0	1	2	3	4	5	6
+Tape0	:	0	1	0	1	0	1	0
+Head0	:	 	 	 	^	 	 	 
+Index1	:	0	1	2	3	4	5	6
+Tape1	:	0	1	0	1	0	1	0
+Head1	:	 	 	 	 	 	 	^
+State	:	mh
+Step	:	13
+Index0	:	0	1	2	3	4	5	6
+Tape0	:	0	1	0	1	0	1	0
+Head0	:	 	 	^	 	 	 	 
+Index1	:	0	1	2	3	4	5	6
+Tape1	:	0	1	0	1	0	1	0
+Head1	:	 	 	 	 	 	 	^
+State	:	mh
+Step	:	14
+Index0	:	0	1	2	3	4	5	6
+Tape0	:	0	1	0	1	0	1	0
+Head0	:	 	^	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6
+Tape1	:	0	1	0	1	0	1	0
+Head1	:	 	 	 	 	 	 	^
+State	:	mh
+Step	:	15
+Index0	:	0	1	2	3	4	5	6
+Tape0	:	0	1	0	1	0	1	0
+Head0	:	^	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6
+Tape1	:	0	1	0	1	0	1	0
+Head1	:	 	 	 	 	 	 	^
+State	:	mh
+Step	:	16
+Index0	:	0	1	2	3	4	5	6
+Tape0	:	0	1	0	1	0	1	0
+Head0	:	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6
+Tape1	:	0	1	0	1	0	1	0
+Head1	:	 	 	 	 	 	 	^
+State	:	mh
+Step	:	17
+Index0	:	0	1	2	3	4	5	6
+Tape0	:	0	1	0	1	0	1	0
+Head0	:	^	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6
+Tape1	:	0	1	0	1	0	1	0
+Head1	:	 	 	 	 	 	 	^
+State	:	cmp
+Step	:	18
+Index0	:	1	2	3	4	5	6
+Tape0	:	1	0	1	0	1	0
+Head0	:	^	 	 	 	 	 
+Index1	:	0	1	2	3	4	5
+Tape1	:	0	1	0	1	0	1
+Head1	:	 	 	 	 	 	^
+State	:	cmp
+Step	:	19
+Index0	:	2	3	4	5	6
+Tape0	:	0	1	0	1	0
+Head0	:	^	 	 	 	 
+Index1	:	0	1	2	3	4
+Tape1	:	0	1	0	1	0
+Head1	:	 	 	 	 	^
+State	:	cmp
+Step	:	20
+Index0	:	3	4	5	6
+Tape0	:	1	0	1	0
+Head0	:	^	 	 	 
+Index1	:	0	1	2	3
+Tape1	:	0	1	0	1
+Head1	:	 	 	 	^
+State	:	cmp
+Step	:	21
+Index0	:	4	5	6
+Tape0	:	0	1	0
+Head0	:	^	 	 
+Index1	:	0	1	2
+Tape1	:	0	1	0
+Head1	:	 	 	^
+State	:	cmp
+Step	:	22
+Index0	:	5	6
+Tape0	:	1	0
+Head0	:	^	 
+Index1	:	0	1
+Tape1	:	0	1
+Head1	:	 	^
+State	:	cmp
+Step	:	23
+Index0	:	6
+Tape0	:	0
+Head0	:	^
+Index1	:	0
+Tape1	:	0
+Head1	:	^
+State	:	cmp
+Step	:	24
+Index0	:	0
+Tape0	:	_
+Head0	:	 
+Index1	:	0
+Tape1	:	_
+Head1	:	 
+State	:	cmp
+Step	:	25
+Index0	:	0
+Tape0	:	_
+Head0	:	 
+Index1	:	0
+Tape1	:	_
+Head1	:	 
+State	:	accept
+Step	:	26
+Index0	:	7
+Tape0	:	T
+Head0	:	 
+Index1	:	0
+Tape1	:	_
+Head1	:	 
+State	:	accept2
+Step	:	27
+Index0	:	7	8
+Tape0	:	T	r
+Head0	:	 	 
+Index1	:	0
+Tape1	:	_
+Head1	:	 
+State	:	accept3
+Step	:	28
+Index0	:	7	8	9
+Tape0	:	T	r	u
+Head0	:	 	 	 
+Index1	:	0
+Tape1	:	_
+Head1	:	 
+State	:	accept4
+Step	:	29
+Index0	:	7	8	9	10
+Tape0	:	T	r	u	e
+Head0	:	 	 	 	^
+Index1	:	0
+Tape1	:	_
+Head1	:	 
+State	:	halt_accept
+Result:True
+==================== END ====================
+Step	:	1
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape0	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head0	:	^	 	 	 	 	 	 	 	 	 	 	 
+Index1	:	0
+Tape1	:	_
+Head1	:	^
+State	:	cp
+Step	:	2
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape0	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head0	:	 	^	 	 	 	 	 	 	 	 	 	 
+Index1	:	0
+Tape1	:	0
+Head1	:	 
+State	:	cp
+Step	:	3
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape0	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head0	:	 	 	^	 	 	 	 	 	 	 	 	 
+Index1	:	0	1
+Tape1	:	0	0
+Head1	:	 	 
+State	:	cp
+Step	:	4
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape0	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head0	:	 	 	 	^	 	 	 	 	 	 	 	 
+Index1	:	0	1	2
+Tape1	:	0	0	0
+Head1	:	 	 	 
+State	:	cp
+Step	:	5
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape0	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head0	:	 	 	 	 	^	 	 	 	 	 	 	 
+Index1	:	0	1	2	3
+Tape1	:	0	0	0	1
+Head1	:	 	 	 	 
+State	:	cp
+Step	:	6
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape0	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head0	:	 	 	 	 	 	^	 	 	 	 	 	 
+Index1	:	0	1	2	3	4
+Tape1	:	0	0	0	1	1
+Head1	:	 	 	 	 	 
+State	:	cp
+Step	:	7
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape0	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head0	:	 	 	 	 	 	 	^	 	 	 	 	 
+Index1	:	0	1	2	3	4	5
+Tape1	:	0	0	0	1	1	1
+Head1	:	 	 	 	 	 	 
+State	:	cp
+Step	:	8
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape0	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head0	:	 	 	 	 	 	 	 	^	 	 	 	 
+Index1	:	0	1	2	3	4	5	6
+Tape1	:	0	0	0	1	1	1	1
+Head1	:	 	 	 	 	 	 	 
+State	:	cp
+Step	:	9
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape0	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head0	:	 	 	 	 	 	 	 	 	^	 	 	 
+Index1	:	0	1	2	3	4	5	6	7
+Tape1	:	0	0	0	1	1	1	1	0
+Head1	:	 	 	 	 	 	 	 	 
+State	:	cp
+Step	:	10
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape0	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head0	:	 	 	 	 	 	 	 	 	 	^	 	 
+Index1	:	0	1	2	3	4	5	6	7	8
+Tape1	:	0	0	0	1	1	1	1	0	1
+Head1	:	 	 	 	 	 	 	 	 	 
+State	:	cp
+Step	:	11
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape0	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head0	:	 	 	 	 	 	 	 	 	 	 	^	 
+Index1	:	0	1	2	3	4	5	6	7	8	9
+Tape1	:	0	0	0	1	1	1	1	0	1	0
+Head1	:	 	 	 	 	 	 	 	 	 	 
+State	:	cp
+Step	:	12
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape0	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	^
+Index1	:	0	1	2	3	4	5	6	7	8	9	10
+Tape1	:	0	0	0	1	1	1	1	0	1	0	0
+Head1	:	 	 	 	 	 	 	 	 	 	 	 
+State	:	cp
+Step	:	13
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape0	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape1	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head1	:	 	 	 	 	 	 	 	 	 	 	 	 
+State	:	cp
+Step	:	14
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape0	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	^
+Index1	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape1	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head1	:	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	mh
+Step	:	15
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape0	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head0	:	 	 	 	 	 	 	 	 	 	 	^	 
+Index1	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape1	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head1	:	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	mh
+Step	:	16
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape0	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head0	:	 	 	 	 	 	 	 	 	 	^	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape1	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head1	:	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	mh
+Step	:	17
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape0	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head0	:	 	 	 	 	 	 	 	 	^	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape1	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head1	:	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	mh
+Step	:	18
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape0	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head0	:	 	 	 	 	 	 	 	^	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape1	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head1	:	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	mh
+Step	:	19
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape0	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head0	:	 	 	 	 	 	 	^	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape1	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head1	:	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	mh
+Step	:	20
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape0	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head0	:	 	 	 	 	 	^	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape1	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head1	:	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	mh
+Step	:	21
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape0	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head0	:	 	 	 	 	^	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape1	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head1	:	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	mh
+Step	:	22
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape0	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head0	:	 	 	 	^	 	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape1	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head1	:	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	mh
+Step	:	23
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape0	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head0	:	 	 	^	 	 	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape1	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head1	:	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	mh
+Step	:	24
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape0	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head0	:	 	^	 	 	 	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape1	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head1	:	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	mh
+Step	:	25
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape0	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head0	:	^	 	 	 	 	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape1	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head1	:	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	mh
+Step	:	26
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape0	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head0	:	 	 	 	 	 	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape1	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head1	:	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	mh
+Step	:	27
+Index0	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape0	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head0	:	^	 	 	 	 	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9	10	11
+Tape1	:	0	0	0	1	1	1	1	0	1	0	0	1
+Head1	:	 	 	 	 	 	 	 	 	 	 	 	^
+State	:	cmp
+Step	:	28
+Index0	:	1	2	3	4	5	6	7	8	9	10	11
+Tape0	:	0	0	1	1	1	1	0	1	0	0	1
+Head0	:	^	 	 	 	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9	10
+Tape1	:	0	0	0	1	1	1	1	0	1	0	0
+Head1	:	 	 	 	 	 	 	 	 	 	 	^
+State	:	reject
+Step	:	29
+Index0	:	2	3	4	5	6	7	8	9	10	11
+Tape0	:	0	1	1	1	1	0	1	0	0	1
+Head0	:	^	 	 	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9
+Tape1	:	0	0	0	1	1	1	1	0	1	0
+Head1	:	 	 	 	 	 	 	 	 	 	^
+State	:	reject
+Step	:	30
+Index0	:	3	4	5	6	7	8	9	10	11
+Tape0	:	1	1	1	1	0	1	0	0	1
+Head0	:	^	 	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8
+Tape1	:	0	0	0	1	1	1	1	0	1
+Head1	:	 	 	 	 	 	 	 	 	^
+State	:	reject
+Step	:	31
+Index0	:	4	5	6	7	8	9	10	11
+Tape0	:	1	1	1	0	1	0	0	1
+Head0	:	^	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7
+Tape1	:	0	0	0	1	1	1	1	0
+Head1	:	 	 	 	 	 	 	 	^
+State	:	reject
+Step	:	32
+Index0	:	5	6	7	8	9	10	11
+Tape0	:	1	1	0	1	0	0	1
+Head0	:	^	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6
+Tape1	:	0	0	0	1	1	1	1
+Head1	:	 	 	 	 	 	 	^
+State	:	reject
+Step	:	33
+Index0	:	6	7	8	9	10	11
+Tape0	:	1	0	1	0	0	1
+Head0	:	^	 	 	 	 	 
+Index1	:	0	1	2	3	4	5
+Tape1	:	0	0	0	1	1	1
+Head1	:	 	 	 	 	 	^
+State	:	reject
+Step	:	34
+Index0	:	7	8	9	10	11
+Tape0	:	0	1	0	0	1
+Head0	:	^	 	 	 	 
+Index1	:	0	1	2	3	4
+Tape1	:	0	0	0	1	1
+Head1	:	 	 	 	 	^
+State	:	reject
+Step	:	35
+Index0	:	8	9	10	11
+Tape0	:	1	0	0	1
+Head0	:	^	 	 	 
+Index1	:	0	1	2	3
+Tape1	:	0	0	0	1
+Head1	:	 	 	 	^
+State	:	reject
+Step	:	36
+Index0	:	9	10	11
+Tape0	:	0	0	1
+Head0	:	^	 	 
+Index1	:	0	1	2
+Tape1	:	0	0	0
+Head1	:	 	 	^
+State	:	reject
+Step	:	37
+Index0	:	10	11
+Tape0	:	0	1
+Head0	:	^	 
+Index1	:	0	1
+Tape1	:	0	0
+Head1	:	 	^
+State	:	reject
+Step	:	38
+Index0	:	11
+Tape0	:	1
+Head0	:	^
+Index1	:	0
+Tape1	:	0
+Head1	:	^
+State	:	reject
+Step	:	39
+Index0	:	0
+Tape0	:	_
+Head0	:	 
+Index1	:	0
+Tape1	:	_
+Head1	:	 
+State	:	reject
+Step	:	40
+Index0	:	12
+Tape0	:	F
+Head0	:	 
+Index1	:	0
+Tape1	:	_
+Head1	:	 
+State	:	reject2
+Step	:	41
+Index0	:	12	13
+Tape0	:	F	a
+Head0	:	 	 
+Index1	:	0
+Tape1	:	_
+Head1	:	 
+State	:	reject3
+Step	:	42
+Index0	:	12	13	14
+Tape0	:	F	a	l
+Head0	:	 	 	 
+Index1	:	0
+Tape1	:	_
+Head1	:	 
+State	:	reject4
+Step	:	43
+Index0	:	12	13	14	15
+Tape0	:	F	a	l	s
+Head0	:	 	 	 	 
+Index1	:	0
+Tape1	:	_
+Head1	:	 
+State	:	reject5
+Step	:	44
+Index0	:	12	13	14	15	16
+Tape0	:	F	a	l	s	e
+Head0	:	 	 	 	 	^
+Index1	:	0
+Tape1	:	_
+Head1	:	 
+State	:	halt_reject
+Result:False
+==================== END ====================
+Step	:	1
+Index0	:	0	1	2	3	4	5	6	7	8	9
+Tape0	:	0	0	1	1	0	0	1	1	0	0
+Head0	:	^	 	 	 	 	 	 	 	 	 
+Index1	:	0
+Tape1	:	_
+Head1	:	^
+State	:	cp
+Step	:	2
+Index0	:	0	1	2	3	4	5	6	7	8	9
+Tape0	:	0	0	1	1	0	0	1	1	0	0
+Head0	:	 	^	 	 	 	 	 	 	 	 
+Index1	:	0
+Tape1	:	0
+Head1	:	 
+State	:	cp
+Step	:	3
+Index0	:	0	1	2	3	4	5	6	7	8	9
+Tape0	:	0	0	1	1	0	0	1	1	0	0
+Head0	:	 	 	^	 	 	 	 	 	 	 
+Index1	:	0	1
+Tape1	:	0	0
+Head1	:	 	 
+State	:	cp
+Step	:	4
+Index0	:	0	1	2	3	4	5	6	7	8	9
+Tape0	:	0	0	1	1	0	0	1	1	0	0
+Head0	:	 	 	 	^	 	 	 	 	 	 
+Index1	:	0	1	2
+Tape1	:	0	0	1
+Head1	:	 	 	 
+State	:	cp
+Step	:	5
+Index0	:	0	1	2	3	4	5	6	7	8	9
+Tape0	:	0	0	1	1	0	0	1	1	0	0
+Head0	:	 	 	 	 	^	 	 	 	 	 
+Index1	:	0	1	2	3
+Tape1	:	0	0	1	1
+Head1	:	 	 	 	 
+State	:	cp
+Step	:	6
+Index0	:	0	1	2	3	4	5	6	7	8	9
+Tape0	:	0	0	1	1	0	0	1	1	0	0
+Head0	:	 	 	 	 	 	^	 	 	 	 
+Index1	:	0	1	2	3	4
+Tape1	:	0	0	1	1	0
+Head1	:	 	 	 	 	 
+State	:	cp
+Step	:	7
+Index0	:	0	1	2	3	4	5	6	7	8	9
+Tape0	:	0	0	1	1	0	0	1	1	0	0
+Head0	:	 	 	 	 	 	 	^	 	 	 
+Index1	:	0	1	2	3	4	5
+Tape1	:	0	0	1	1	0	0
+Head1	:	 	 	 	 	 	 
+State	:	cp
+Step	:	8
+Index0	:	0	1	2	3	4	5	6	7	8	9
+Tape0	:	0	0	1	1	0	0	1	1	0	0
+Head0	:	 	 	 	 	 	 	 	^	 	 
+Index1	:	0	1	2	3	4	5	6
+Tape1	:	0	0	1	1	0	0	1
+Head1	:	 	 	 	 	 	 	 
+State	:	cp
+Step	:	9
+Index0	:	0	1	2	3	4	5	6	7	8	9
+Tape0	:	0	0	1	1	0	0	1	1	0	0
+Head0	:	 	 	 	 	 	 	 	 	^	 
+Index1	:	0	1	2	3	4	5	6	7
+Tape1	:	0	0	1	1	0	0	1	1
+Head1	:	 	 	 	 	 	 	 	 
+State	:	cp
+Step	:	10
+Index0	:	0	1	2	3	4	5	6	7	8	9
+Tape0	:	0	0	1	1	0	0	1	1	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	^
+Index1	:	0	1	2	3	4	5	6	7	8
+Tape1	:	0	0	1	1	0	0	1	1	0
+Head1	:	 	 	 	 	 	 	 	 	 
+State	:	cp
+Step	:	11
+Index0	:	0	1	2	3	4	5	6	7	8	9
+Tape0	:	0	0	1	1	0	0	1	1	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9
+Tape1	:	0	0	1	1	0	0	1	1	0	0
+Head1	:	 	 	 	 	 	 	 	 	 	 
+State	:	cp
+Step	:	12
+Index0	:	0	1	2	3	4	5	6	7	8	9
+Tape0	:	0	0	1	1	0	0	1	1	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	^
+Index1	:	0	1	2	3	4	5	6	7	8	9
+Tape1	:	0	0	1	1	0	0	1	1	0	0
+Head1	:	 	 	 	 	 	 	 	 	 	^
+State	:	mh
+Step	:	13
+Index0	:	0	1	2	3	4	5	6	7	8	9
+Tape0	:	0	0	1	1	0	0	1	1	0	0
+Head0	:	 	 	 	 	 	 	 	 	^	 
+Index1	:	0	1	2	3	4	5	6	7	8	9
+Tape1	:	0	0	1	1	0	0	1	1	0	0
+Head1	:	 	 	 	 	 	 	 	 	 	^
+State	:	mh
+Step	:	14
+Index0	:	0	1	2	3	4	5	6	7	8	9
+Tape0	:	0	0	1	1	0	0	1	1	0	0
+Head0	:	 	 	 	 	 	 	 	^	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9
+Tape1	:	0	0	1	1	0	0	1	1	0	0
+Head1	:	 	 	 	 	 	 	 	 	 	^
+State	:	mh
+Step	:	15
+Index0	:	0	1	2	3	4	5	6	7	8	9
+Tape0	:	0	0	1	1	0	0	1	1	0	0
+Head0	:	 	 	 	 	 	 	^	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9
+Tape1	:	0	0	1	1	0	0	1	1	0	0
+Head1	:	 	 	 	 	 	 	 	 	 	^
+State	:	mh
+Step	:	16
+Index0	:	0	1	2	3	4	5	6	7	8	9
+Tape0	:	0	0	1	1	0	0	1	1	0	0
+Head0	:	 	 	 	 	 	^	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9
+Tape1	:	0	0	1	1	0	0	1	1	0	0
+Head1	:	 	 	 	 	 	 	 	 	 	^
+State	:	mh
+Step	:	17
+Index0	:	0	1	2	3	4	5	6	7	8	9
+Tape0	:	0	0	1	1	0	0	1	1	0	0
+Head0	:	 	 	 	 	^	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9
+Tape1	:	0	0	1	1	0	0	1	1	0	0
+Head1	:	 	 	 	 	 	 	 	 	 	^
+State	:	mh
+Step	:	18
+Index0	:	0	1	2	3	4	5	6	7	8	9
+Tape0	:	0	0	1	1	0	0	1	1	0	0
+Head0	:	 	 	 	^	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9
+Tape1	:	0	0	1	1	0	0	1	1	0	0
+Head1	:	 	 	 	 	 	 	 	 	 	^
+State	:	mh
+Step	:	19
+Index0	:	0	1	2	3	4	5	6	7	8	9
+Tape0	:	0	0	1	1	0	0	1	1	0	0
+Head0	:	 	 	^	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9
+Tape1	:	0	0	1	1	0	0	1	1	0	0
+Head1	:	 	 	 	 	 	 	 	 	 	^
+State	:	mh
+Step	:	20
+Index0	:	0	1	2	3	4	5	6	7	8	9
+Tape0	:	0	0	1	1	0	0	1	1	0	0
+Head0	:	 	^	 	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9
+Tape1	:	0	0	1	1	0	0	1	1	0	0
+Head1	:	 	 	 	 	 	 	 	 	 	^
+State	:	mh
+Step	:	21
+Index0	:	0	1	2	3	4	5	6	7	8	9
+Tape0	:	0	0	1	1	0	0	1	1	0	0
+Head0	:	^	 	 	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9
+Tape1	:	0	0	1	1	0	0	1	1	0	0
+Head1	:	 	 	 	 	 	 	 	 	 	^
+State	:	mh
+Step	:	22
+Index0	:	0	1	2	3	4	5	6	7	8	9
+Tape0	:	0	0	1	1	0	0	1	1	0	0
+Head0	:	 	 	 	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9
+Tape1	:	0	0	1	1	0	0	1	1	0	0
+Head1	:	 	 	 	 	 	 	 	 	 	^
+State	:	mh
+Step	:	23
+Index0	:	0	1	2	3	4	5	6	7	8	9
+Tape0	:	0	0	1	1	0	0	1	1	0	0
+Head0	:	^	 	 	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8	9
+Tape1	:	0	0	1	1	0	0	1	1	0	0
+Head1	:	 	 	 	 	 	 	 	 	 	^
+State	:	cmp
+Step	:	24
+Index0	:	1	2	3	4	5	6	7	8	9
+Tape0	:	0	1	1	0	0	1	1	0	0
+Head0	:	^	 	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7	8
+Tape1	:	0	0	1	1	0	0	1	1	0
+Head1	:	 	 	 	 	 	 	 	 	^
+State	:	cmp
+Step	:	25
+Index0	:	2	3	4	5	6	7	8	9
+Tape0	:	1	1	0	0	1	1	0	0
+Head0	:	^	 	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6	7
+Tape1	:	0	0	1	1	0	0	1	1
+Head1	:	 	 	 	 	 	 	 	^
+State	:	cmp
+Step	:	26
+Index0	:	3	4	5	6	7	8	9
+Tape0	:	1	0	0	1	1	0	0
+Head0	:	^	 	 	 	 	 	 
+Index1	:	0	1	2	3	4	5	6
+Tape1	:	0	0	1	1	0	0	1
+Head1	:	 	 	 	 	 	 	^
+State	:	cmp
+Step	:	27
+Index0	:	4	5	6	7	8	9
+Tape0	:	0	0	1	1	0	0
+Head0	:	^	 	 	 	 	 
+Index1	:	0	1	2	3	4	5
+Tape1	:	0	0	1	1	0	0
+Head1	:	 	 	 	 	 	^
+State	:	cmp
+Step	:	28
+Index0	:	5	6	7	8	9
+Tape0	:	0	1	1	0	0
+Head0	:	^	 	 	 	 
+Index1	:	0	1	2	3	4
+Tape1	:	0	0	1	1	0
+Head1	:	 	 	 	 	^
+State	:	cmp
+Step	:	29
+Index0	:	6	7	8	9
+Tape0	:	1	1	0	0
+Head0	:	^	 	 	 
+Index1	:	0	1	2	3
+Tape1	:	0	0	1	1
+Head1	:	 	 	 	^
+State	:	cmp
+Step	:	30
+Index0	:	7	8	9
+Tape0	:	1	0	0
+Head0	:	^	 	 
+Index1	:	0	1	2
+Tape1	:	0	0	1
+Head1	:	 	 	^
+State	:	cmp
+Step	:	31
+Index0	:	8	9
+Tape0	:	0	0
+Head0	:	^	 
+Index1	:	0	1
+Tape1	:	0	0
+Head1	:	 	^
+State	:	cmp
+Step	:	32
+Index0	:	9
+Tape0	:	0
+Head0	:	^
+Index1	:	0
+Tape1	:	0
+Head1	:	^
+State	:	cmp
+Step	:	33
+Index0	:	0
+Tape0	:	_
+Head0	:	 
+Index1	:	0
+Tape1	:	_
+Head1	:	 
+State	:	cmp
+Step	:	34
+Index0	:	0
+Tape0	:	_
+Head0	:	 
+Index1	:	0
+Tape1	:	_
+Head1	:	 
+State	:	accept
+Step	:	35
+Index0	:	10
+Tape0	:	T
+Head0	:	 
+Index1	:	0
+Tape1	:	_
+Head1	:	 
+State	:	accept2
+Step	:	36
+Index0	:	10	11
+Tape0	:	T	r
+Head0	:	 	 
+Index1	:	0
+Tape1	:	_
+Head1	:	 
+State	:	accept3
+Step	:	37
+Index0	:	10	11	12
+Tape0	:	T	r	u
+Head0	:	 	 	 
+Index1	:	0
+Tape1	:	_
+Head1	:	 
+State	:	accept4
+Step	:	38
+Index0	:	10	11	12	13
+Tape0	:	T	r	u	e
+Head0	:	 	 	 	^
+Index1	:	0
+Tape1	:	_
+Head1	:	 
+State	:	halt_accept
+Result:True
+==================== END ====================
